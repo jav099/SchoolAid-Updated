@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EEE076A1ED72159007C636C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE07691ED72159007C636C /* AppDelegate.swift */; };
+		4EEE076C1ED72159007C636C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE076B1ED72159007C636C /* ViewController.swift */; };
+		4EEE076F1ED72159007C636C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE076D1ED72159007C636C /* Main.storyboard */; };
+		4EEE07711ED72159007C636C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE07701ED72159007C636C /* Assets.xcassets */; };
+		4EEE07741ED72159007C636C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EEE07721ED72159007C636C /* LaunchScreen.storyboard */; };
+		4EEE077F1ED72159007C636C /* SchoolAidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE077E1ED72159007C636C /* SchoolAidTests.swift */; };
+		4EEE078A1ED72159007C636C /* SchoolAidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEE07891ED72159007C636C /* SchoolAidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EEE077B1ED72159007C636C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEE075E1ED72159007C636C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEE07651ED72159007C636C;
+			remoteInfo = SchoolAid;
+		};
+		4EEE07861ED72159007C636C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EEE075E1ED72159007C636C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEE07651ED72159007C636C;
+			remoteInfo = SchoolAid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EEE07661ED72159007C636C /* SchoolAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchoolAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE07691ED72159007C636C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EEE076B1ED72159007C636C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EEE076E1ED72159007C636C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EEE07701ED72159007C636C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EEE07731ED72159007C636C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EEE07751ED72159007C636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEE077A1ED72159007C636C /* SchoolAidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolAidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE077E1ED72159007C636C /* SchoolAidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAidTests.swift; sourceTree = "<group>"; };
+		4EEE07801ED72159007C636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EEE07851ED72159007C636C /* SchoolAidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolAidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EEE07891ED72159007C636C /* SchoolAidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolAidUITests.swift; sourceTree = "<group>"; };
+		4EEE078B1ED72159007C636C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EEE07631ED72159007C636C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07771ED72159007C636C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07821ED72159007C636C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EEE075D1ED72159007C636C = {
+			isa = PBXGroup;
+			children = (
+				4EEE07681ED72159007C636C /* SchoolAid */,
+				4EEE077D1ED72159007C636C /* SchoolAidTests */,
+				4EEE07881ED72159007C636C /* SchoolAidUITests */,
+				4EEE07671ED72159007C636C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EEE07671ED72159007C636C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE07661ED72159007C636C /* SchoolAid.app */,
+				4EEE077A1ED72159007C636C /* SchoolAidTests.xctest */,
+				4EEE07851ED72159007C636C /* SchoolAidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EEE07681ED72159007C636C /* SchoolAid */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE07691ED72159007C636C /* AppDelegate.swift */,
+				4EEE076B1ED72159007C636C /* ViewController.swift */,
+				4EEE076D1ED72159007C636C /* Main.storyboard */,
+				4EEE07701ED72159007C636C /* Assets.xcassets */,
+				4EEE07721ED72159007C636C /* LaunchScreen.storyboard */,
+				4EEE07751ED72159007C636C /* Info.plist */,
+			);
+			path = SchoolAid;
+			sourceTree = "<group>";
+		};
+		4EEE077D1ED72159007C636C /* SchoolAidTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE077E1ED72159007C636C /* SchoolAidTests.swift */,
+				4EEE07801ED72159007C636C /* Info.plist */,
+			);
+			path = SchoolAidTests;
+			sourceTree = "<group>";
+		};
+		4EEE07881ED72159007C636C /* SchoolAidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4EEE07891ED72159007C636C /* SchoolAidUITests.swift */,
+				4EEE078B1ED72159007C636C /* Info.plist */,
+			);
+			path = SchoolAidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EEE07651ED72159007C636C /* SchoolAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE078E1ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAid" */;
+			buildPhases = (
+				4EEE07621ED72159007C636C /* Sources */,
+				4EEE07631ED72159007C636C /* Frameworks */,
+				4EEE07641ED72159007C636C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchoolAid;
+			productName = SchoolAid;
+			productReference = 4EEE07661ED72159007C636C /* SchoolAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4EEE07791ED72159007C636C /* SchoolAidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE07911ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAidTests" */;
+			buildPhases = (
+				4EEE07761ED72159007C636C /* Sources */,
+				4EEE07771ED72159007C636C /* Frameworks */,
+				4EEE07781ED72159007C636C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEE077C1ED72159007C636C /* PBXTargetDependency */,
+			);
+			name = SchoolAidTests;
+			productName = SchoolAidTests;
+			productReference = 4EEE077A1ED72159007C636C /* SchoolAidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4EEE07841ED72159007C636C /* SchoolAidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EEE07941ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAidUITests" */;
+			buildPhases = (
+				4EEE07811ED72159007C636C /* Sources */,
+				4EEE07821ED72159007C636C /* Frameworks */,
+				4EEE07831ED72159007C636C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EEE07871ED72159007C636C /* PBXTargetDependency */,
+			);
+			name = SchoolAidUITests;
+			productName = SchoolAidUITests;
+			productReference = 4EEE07851ED72159007C636C /* SchoolAidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EEE075E1ED72159007C636C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Contreras Tenorio Javier";
+				TargetAttributes = {
+					4EEE07651ED72159007C636C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4EEE07791ED72159007C636C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4EEE07651ED72159007C636C;
+					};
+					4EEE07841ED72159007C636C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4EEE07651ED72159007C636C;
+					};
+				};
+			};
+			buildConfigurationList = 4EEE07611ED72159007C636C /* Build configuration list for PBXProject "SchoolAid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EEE075D1ED72159007C636C;
+			productRefGroup = 4EEE07671ED72159007C636C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EEE07651ED72159007C636C /* SchoolAid */,
+				4EEE07791ED72159007C636C /* SchoolAidTests */,
+				4EEE07841ED72159007C636C /* SchoolAidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EEE07641ED72159007C636C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE07741ED72159007C636C /* LaunchScreen.storyboard in Resources */,
+				4EEE07711ED72159007C636C /* Assets.xcassets in Resources */,
+				4EEE076F1ED72159007C636C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07781ED72159007C636C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07831ED72159007C636C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EEE07621ED72159007C636C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE076C1ED72159007C636C /* ViewController.swift in Sources */,
+				4EEE076A1ED72159007C636C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07761ED72159007C636C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE077F1ED72159007C636C /* SchoolAidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EEE07811ED72159007C636C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE078A1ED72159007C636C /* SchoolAidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EEE077C1ED72159007C636C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEE07651ED72159007C636C /* SchoolAid */;
+			targetProxy = 4EEE077B1ED72159007C636C /* PBXContainerItemProxy */;
+		};
+		4EEE07871ED72159007C636C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EEE07651ED72159007C636C /* SchoolAid */;
+			targetProxy = 4EEE07861ED72159007C636C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EEE076D1ED72159007C636C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEE076E1ED72159007C636C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EEE07721ED72159007C636C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EEE07731ED72159007C636C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EEE078C1ED72159007C636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EEE078D1ED72159007C636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EEE078F1ED72159007C636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolAid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EEE07901ED72159007C636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SchoolAid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EEE07921ED72159007C636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchoolAidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolAid.app/SchoolAid";
+			};
+			name = Debug;
+		};
+		4EEE07931ED72159007C636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchoolAidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchoolAid.app/SchoolAid";
+			};
+			name = Release;
+		};
+		4EEE07951ED72159007C636C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchoolAidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SchoolAid;
+			};
+			name = Debug;
+		};
+		4EEE07961ED72159007C636C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchoolAidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Peterson.SchoolAidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SchoolAid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EEE07611ED72159007C636C /* Build configuration list for PBXProject "SchoolAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE078C1ED72159007C636C /* Debug */,
+				4EEE078D1ED72159007C636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EEE078E1ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE078F1ED72159007C636C /* Debug */,
+				4EEE07901ED72159007C636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EEE07911ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE07921ED72159007C636C /* Debug */,
+				4EEE07931ED72159007C636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4EEE07941ED72159007C636C /* Build configuration list for PBXNativeTarget "SchoolAidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EEE07951ED72159007C636C /* Debug */,
+				4EEE07961ED72159007C636C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EEE075E1ED72159007C636C /* Project object */;
+}
